@@ -6,9 +6,11 @@
 //  Copyright © 2019 Max Korner. All rights reserved.
 //
 
-#ifndef source_hpp
-#define source_hpp
+#pragma once //is a language construct that specifies how a compiler (or other translator) should process its input.
+#include <iostream> //provides basic input and output services for C++ programs
+#include <fstream> //Objects fstream deal with files that can one can write to and read from
+#include <string> // a way to represent sequence of characters as an object of class
 
-#include <stdio.h>
-
-#endif /* source_hpp */
+using namespace std;
+void intro();
+int main();
