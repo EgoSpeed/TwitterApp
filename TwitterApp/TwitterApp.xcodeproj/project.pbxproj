@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5AA69ED2202837300E89C8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5AA69EC2202837300E89C8C /* main.cpp */; };
+		E5AA69F82203472500E89C8C /* source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5AA69F62203472500E89C8C /* source.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		E5AA69E92202837300E89C8C /* TwitterApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwitterApp; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5AA69EC2202837300E89C8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E5AA69F422032F1300E89C8C /* sampleTweets.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = sampleTweets.csv; sourceTree = "<group>"; };
+		E5AA69F62203472500E89C8C /* source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = source.cpp; sourceTree = "<group>"; };
+		E5AA69F72203472500E89C8C /* source.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = source.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		E5AA69EB2202837300E89C8C /* TwitterApp */ = {
 			isa = PBXGroup;
 			children = (
-				E5AA69EC2202837300E89C8C /* main.cpp */,
+				E5AA69F62203472500E89C8C /* source.cpp */,
+				E5AA69F72203472500E89C8C /* source.hpp */,
+				E5AA69F422032F1300E89C8C /* sampleTweets.csv */,
 			);
 			path = TwitterApp;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5AA69ED2202837300E89C8C /* main.cpp in Sources */,
+				E5AA69F82203472500E89C8C /* source.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
